@@ -1,0 +1,15 @@
+
+.cartBlock{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cartBlock__cart{
+    cursor: pointer;
+    position: relative;
+}
+.cartBlock__prise{
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}

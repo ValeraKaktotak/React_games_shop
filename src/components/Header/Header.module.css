@@ -1,0 +1,21 @@
+
+.header{
+    display: flex;
+    height: 80px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.game_store{
+    font-size: 24px;
+    font-weight: bold;
+}
+.cart_btn_wrapper{
+    justify-content: flex-end;
+}
