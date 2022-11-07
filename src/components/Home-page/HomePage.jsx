@@ -1,3 +1,5 @@
+import GameItem from "../Game-item/GameItem";
+
 const GAMES = [
     {
         image: '../src/assets/images/forza_5.jpeg',
