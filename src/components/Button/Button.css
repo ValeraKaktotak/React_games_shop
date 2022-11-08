@@ -1,0 +1,21 @@
+
+.btn{
+    border-radius: 15px;
+    border:none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 10px;
+}
+.btn__primary{
+    background-color: rgb(85, 88, 237);
+}
+.btn__secondary{
+    background-color: rgb(88, 82, 84);
+}
+.btn__small{
+    font-size: 14px;
+}
+.btn__medium{
+    font-size: 18px;
+}

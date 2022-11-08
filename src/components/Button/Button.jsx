@@ -1,18 +1,21 @@
-import s from './Button.module.css'
+import './Button.css'
 import classNames from "classnames";
 
 const Button = ({
     onClick,
     type,
     children,
-    size = s
+    size = "s"
 }) => {
     const btnClasses = classNames({
         'btn': true,
-        'btn--primary': type === 'primary'
+        'btn__primary': type === 'primary',
+        'btn__secondary': type === 'secondary',
+        'btn__small': size === 's',
+        'btn__medium': size === 'm'
     })
     return(
-        <button>
+        <button className={btnClasses} onClick={onClick}>
             {children}
         </button>
     )

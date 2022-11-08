@@ -5,7 +5,9 @@ const GameBuy = ({game}) => {
     return(
         <div className={s.game_buy}>
             <span>{game.price} руб.</span>
-            <Button />
+            <Button onClick={()=>null} type="primary" >
+                В корзину
+            </Button>
         </div>
     )
 }
