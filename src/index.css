@@ -14,9 +14,9 @@ code {
 }
 
 .App {
-  width: 1180px;
+  width: 100%;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 0 40px;
   color: white;
 }
 

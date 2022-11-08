@@ -1,0 +1,24 @@
+
+.game_item{
+    display: flex;
+    flex-flow: column wrap;
+    width: 300px;
+    height: 320px;
+    margin: 30px 10px;
+    padding-bottom: 15px;
+    background-color: rgb(36, 37, 41);
+    border-radius: 15px;
+    position: relative;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px 15px 15px;
+    text-align: center;
+}
+.ganres_block{
+    margin: 0 15px 15px 15px;
+}
+.buy{
+    margin-left: 15px;
+}
