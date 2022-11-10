@@ -7,11 +7,16 @@
     justify-content: space-around;
     margin-bottom: 30px;
 }
+
+
 .wrapper{
+    padding: 0 15px;
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+
 .game_store{
     font-size: 24px;
     font-weight: bold;
