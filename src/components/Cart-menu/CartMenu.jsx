@@ -25,8 +25,8 @@ const CartMenu = ({items, onClick}) => {
                             <span>Итого к оплате:</span>
                             <span>{totalCartCost(items)} руб.</span>
                         </div>
-                        <Button type='primary' size='m'>
-                            Оплатить
+                        <Button type='primary' size='m' onClick={onClick}>
+                            Оформить заказ
                         </Button>
                     </div> :
                     null

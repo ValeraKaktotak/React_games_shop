@@ -9,6 +9,7 @@ import GameGenre from "../Game-genre/GameGenre";
 const GameItem = ({game}) => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
+
     const handleClick = () => {
         dispatch(setCurrentGame(game))
         navigate(`/${game.title}`)
