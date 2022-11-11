@@ -9,6 +9,7 @@
     background-color: rgb(36, 37, 41);
     border-radius: 15px;
     position: relative;
+    cursor: pointer;
 }
 .title{
     font-size: 18px;
@@ -32,4 +33,5 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 2;
 }
