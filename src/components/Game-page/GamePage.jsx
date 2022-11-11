@@ -20,7 +20,6 @@ const GamePage = () => {
                     title="Youtube video player"
                     frameBorder= "0"
                     >
-
                     </iframe>
                 </div>
                 <div className="game-page__right">
