@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import {Provider} from "react-redux";
 import store from "./redux/store";
 import GamePage from "./components/Game-page/GamePage";
+import OrderPage from "./components/Order-page/OrderPage";
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
                     </Routes>
                     <Routes>
                         <Route path="/:title" element={<GamePage />}/>
+                    </Routes>
+                    <Routes>
+                        <Route path="/order" element={<OrderPage />}/>
                     </Routes>
                 </div>
             </BrowserRouter>

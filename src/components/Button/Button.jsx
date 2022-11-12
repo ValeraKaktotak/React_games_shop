@@ -1,12 +1,13 @@
 import './Button.css'
 import classNames from "classnames";
+import React from "react";
 
-const Button = ({
-    onClick,
-    type,
-    children,
-    size = "s"
-}) => {
+const Button = React.memo(({
+                               onClick,
+                               type,
+                               children,
+                               size = "s"
+                           }) => {
     const btnClasses = classNames({
         'btn': true,
         'btn__primary': type === 'primary',
@@ -19,6 +20,6 @@ const Button = ({
             {children}
         </button>
     )
-}
+})
 
 export default Button
