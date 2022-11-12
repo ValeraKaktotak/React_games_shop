@@ -15,7 +15,6 @@ const Button = React.memo(({
         'btn__small': size === 's',
         'btn__medium': size === 'm'
     })
-    console.log('rerender Button')
     return(
         <button className={btnClasses} onClick={onClick}>
             {children}
